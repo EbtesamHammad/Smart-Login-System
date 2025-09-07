@@ -1,0 +1,45 @@
+body{
+    background-color: rgb(36,53,63);
+}
+.login{
+    background-color: rgb(36,53,63);
+    box-shadow: -5px 2px 54px -9px rgba(0, 0, 0, 1);
+}
+ .container{
+    width: 90%;
+ }
+ input{
+    background-color: transparent !important;
+    color: #fff !important;
+    border: 1px solid #ced4da;
+    transition: border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+ }
+ input::placeholder{
+    color: #ced4da !important ;
+ }
+ h1{
+    color: #17a2b8;
+ }
+ .form-control:focus{
+    box-shadow: none;
+ }
+ button:hover{
+    color: #fff !important;
+ }
+ /**********************************/
+ .navbar-brand{
+    color: white;
+ }
+ .navbar{
+    background-color: transparent !important;
+    box-shadow: -5px 2px 54px -9px rgba(0, 0, 0, 1);
+ }
+ .collapse button{
+    color: #ced4da !important ;
+
+ }
+.welcome{
+    height: 200px;
+    background-color: transparent ;
+    box-shadow: -5px 2px 54px -9px rgba(0, 0, 0, 1);
+}
