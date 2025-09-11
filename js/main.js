@@ -93,13 +93,13 @@ function login(){
         if(email.toLowerCase() == signUpArray[i].email.toLowerCase()  && password.toLowerCase() == signUpArray[i].password.toLowerCase()){
             
             localStorage.setItem('Username', signUpArray[i].name)
-            if (baseURL == '/') {
+            // if (baseURL == '/') {
                 location.replace('https://' + location.hostname + 'home.html')
 
-            } else {
-                location.replace(baseURL + 'home.html')
+            // } else {
+            //     location.replace(baseURL + 'home.html')
 
-            }
+            // }
 
         }
         else{
