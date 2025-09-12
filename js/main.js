@@ -93,12 +93,13 @@ function login(){
         password.toLowerCase() == signUpArray[i].password.toLowerCase()) {
 
         localStorage.setItem('Username', signUpArray[i].name);
+        window.location.href = "home.html";
 
-        if (baseURL == '/') {
-            location.replace('https://' + location.hostname + '/home.html');
-        } else {
-            location.replace(baseURL + '/home.html');
-        }
+        // if (baseURL == '/') {
+        //     location.replace('https://' + location.hostname + '/home.html');
+        // } else {
+        //     location.replace(baseURL + '/home.html');
+        // }
     } else {
         document.getElementById("invalidLogin").innerHTML =
             `<span class="text-danger m-3">incorrect email or password</span>`;
